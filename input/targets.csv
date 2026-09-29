@@ -1,0 +1,8 @@
+name,url,category,expected_status
+Google Search,https://www.google.com,Search Engine,200
+GitHub Status API,https://api.github.com,Developer API,200
+Hacker News,https://news.ycombinator.com,News Portal,200
+Cloudflare DNS,https://1.1.1.1,DNS Infrastructure,200
+Simulated 500 Outage,https://httpbin.org/status/500,API Gateway,200
+Simulated 404 Endpoint,https://httpbin.org/status/404,Web Service,200
+Simulated Slow Server,https://httpbin.org/delay/2,Microservice,200
